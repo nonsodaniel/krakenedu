@@ -38,7 +38,7 @@ const Contents = () => {
                 </div>
               </div>
               <div className="right__wrap">
-                <span>
+                <span className="comment-icon-wrap">
                   <i className="fas fa-comment"></i>
                 </span>
                 <h4
