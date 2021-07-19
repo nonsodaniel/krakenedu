@@ -103,15 +103,24 @@
 }
 
 @media screen and (max-width: 768px) {
-  .sidebar {
-    margin-bottom: 1rem;
+  .contents{
+    .navbar {
+      flex-direction: column;
+      padding-top: 1rem;
+      
+      .btn {
+        margin: 1rem;
+      }
+    }
+    .main{
+      
+      .left__wrap .description{
+        padding: .5rem;
+      }
+    }
+    
   }
-  .navbar {
-    flex-direction: column;
-  }
-  .btn {
-    margin: 1rem 0;
-  }
+  
 }
 
 @media screen and (max-width: 360px) {
