@@ -1,9 +1,9 @@
-@import '../container/container.scss';
-@import '../container/variables.scss';
+@import "../container/container.scss";
+@import "../container/variables.scss";
 
 .contents {
   .navbar {
-   @include spaceBetween;
+    @include spaceBetween;
     align-items: center;
     padding: 0.4rem 1.4rem;
     background-color: #3e426b;
@@ -17,24 +17,25 @@
       @include spaceBetween;
       align-items: center;
       border-radius: 5px;
-      li{
+      li {
         margin-right: 1rem;
         font-size: 13px;
-        &:first-child{
+        &:first-child {
           font-weight: 600;
         }
-        &:nth-child(2), &:nth-child(3){
+        &:nth-child(2),
+        &:nth-child(3) {
           font-weight: 600;
           font: 12px;
         }
-        .sugg__icon{
+        .sugg__icon {
           font-size: 20px;
         }
-        .sort__by{
+        .sort__by {
           color: #a1a5c0;
         }
-        .most__votes{
-          font-size: 11px
+        .most__votes {
+          font-size: 11px;
         }
       }
     }
@@ -53,7 +54,6 @@
       padding: 1.5rem;
       margin-bottom: 0.8rem;
       @include spaceBetween;
-
     }
     .left__wrap {
       display: grid;
@@ -67,8 +67,8 @@
         border-radius: 5px;
         background-color: var(--bg-primary);
         color: var(--text-dark-color);
-   
-        p{
+
+        p {
           font-weight: 600;
         }
       }
@@ -87,40 +87,37 @@
         border-radius: 5px;
       }
     }
-    .right__wrap{
+    .right__wrap {
       display: flex;
       width: 40px;
       justify-content: space-around;
       align-items: center;
     }
-    .fa-comment{
+    .fa-comment {
       color: #c5c9d8;
     }
-    .comment__count{
+    .comment__count {
       color: #6b6e85;
     }
   }
 }
 
-
-@media screen and (max-width: 768px){
-  .sidebar{
+@media screen and (max-width: 768px) {
+  .sidebar {
     margin-bottom: 1rem;
   }
-  .navbar{
+  .navbar {
     flex-direction: column;
   }
-  .btn{
+  .btn {
     margin: 1rem 0;
   }
-  
 }
 
-@media screen and (max-width: 360px){
-  .navbar{
-    ul{
+@media screen and (max-width: 360px) {
+  .navbar {
+    ul {
       flex-direction: column;
     }
   }
-  
 }
