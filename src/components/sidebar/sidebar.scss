@@ -80,3 +80,19 @@
       }
   }
 }
+
+
+@media screen and (max-width: 768px){
+  .sidebar{
+    .top{
+      text-align: center;
+      .text__1 {
+        font-size: 20px;
+      }
+      .text__2 {
+        font-size: 15px;
+      }
+    }
+  }
+
+}

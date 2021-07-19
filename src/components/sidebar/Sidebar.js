@@ -1,13 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { roadmaps } from "../../util/db";
 import "./sidebar.scss";
 
 const Sidebar = () => {
-  const roadmaps = [
-    { id: 1, color: "#ef9b00", status: "Planned", count: 2 },
-    { id: 2, color: "#bb45cb", status: "In-progress", count: 3 },
-    { id: 3, color: "green", status: "Live", count: 1 },
-  ];
   return (
     <div className="sidebar">
       <div className="wrap">

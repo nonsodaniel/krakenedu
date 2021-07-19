@@ -74,6 +74,7 @@
       }
       .title {
         font-size: 16px;
+        color: var(--text-dark-color);
       }
       .description {
         font-size: 13px;
@@ -112,4 +113,14 @@
   .btn{
     margin: 1rem 0;
   }
+  
+}
+
+@media screen and (max-width: 360px){
+  .navbar{
+    ul{
+      flex-direction: column;
+    }
+  }
+  
 }
