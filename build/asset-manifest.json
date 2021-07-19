@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a097bda8.chunk.css",
+    "main.js": "/static/js/main.c1308c6b.chunk.js",
+    "main.js.map": "/static/js/main.c1308c6b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f9428471.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f9428471.js.map",
+    "static/js/2.cb6227f5.chunk.js": "/static/js/2.cb6227f5.chunk.js",
+    "static/js/2.cb6227f5.chunk.js.map": "/static/js/2.cb6227f5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.a097bda8.chunk.css.map": "/static/css/main.a097bda8.chunk.css.map",
+    "static/js/2.cb6227f5.chunk.js.LICENSE.txt": "/static/js/2.cb6227f5.chunk.js.LICENSE.txt",
+    "static/media/Call.1f3be1a5.svg": "/static/media/Call.1f3be1a5.svg",
+    "static/media/Logout.054637b7.svg": "/static/media/Logout.054637b7.svg",
+    "static/media/Notification.1acdfca7.svg": "/static/media/Notification.1acdfca7.svg",
+    "static/media/Search.ec125a96.svg": "/static/media/Search.ec125a96.svg",
+    "static/media/index.css": "/static/media/SpaceGrotesk-Regular.d6feaf8c.otf",
+    "static/media/avatar.811fbfed.svg": "/static/media/avatar.811fbfed.svg",
+    "static/media/balance.e54ca08b.svg": "/static/media/balance.e54ca08b.svg",
+    "static/media/customers.e8c3484c.svg": "/static/media/customers.e8c3484c.svg",
+    "static/media/dashboard.29ef487d.svg": "/static/media/dashboard.29ef487d.svg",
+    "static/media/logo.ce827177.svg": "/static/media/logo.ce827177.svg",
+    "static/media/settings.526b1444.svg": "/static/media/settings.526b1444.svg",
+    "static/media/team.14d6e954.svg": "/static/media/team.14d6e954.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9428471.js",
+    "static/js/2.cb6227f5.chunk.js",
+    "static/css/main.a097bda8.chunk.css",
+    "static/js/main.c1308c6b.chunk.js"
+  ]
+}

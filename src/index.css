@@ -1,0 +1,34 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: 'MyWebFont', Fallback, sans-serif;
+    background: #4454c312;
+  }
+  .tag{
+    font-size: 11px;
+    padding: 5px 13px;
+    border-radius: 9px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    background: #4454c312;
+    color: #4454c3;
+    font-weight: 800;
+}
+ul{
+  list-style-type: none;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src:  url('./components//assets/fonts/SpaceGrotesk-Bold.otf') format('otf'),
+    url('./components//assets/fonts/SpaceGrotesk-Light.otf') format('otf'),
+    url('./components//assets/fonts/SpaceGrotesk-Medium.otf') format('otf'),
+    url('./components//assets/fonts/SpaceGrotesk-Regular.otf') format('otf'),
+  }
+
+
